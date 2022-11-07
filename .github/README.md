@@ -5,7 +5,7 @@ By organizing elements and explaining to the user what they do, fieldsets are a 
 
 ## Installation
 
-Use Node Package Manager [npm](https://www.npmjs.com/) to install this React Native component easily.
+Use Node Package Manager [npm](https://www.npmjs.com/) to install this React Native component.
 
 ```bash
 npm install rnfieldset
@@ -13,18 +13,21 @@ npm install rnfieldset
 
 ## Usage
 
-```python
-import foobar
+```typescript
 
-# returns 'words'
-foobar.pluralize('word')
+import Fieldset from 'rnfieldset'
 
-# returns 'geese'
-foobar.pluralize('goose')
+// palette for light and dark modes (100% optional)
+const colors = { darkfore:'#666', darkback:'#111', lightfore:'#BBB', lightback:'#FFF' }
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+<Fieldset title='Fieldset' colors={ colors }>
+  <Text style={{ color:'cyan' }}>Hello</Text>
+  <Text style={{ color:'magenta' }}>World!</Text>
+</Fieldset>
+
 ```
+
+![Fieldset Example](https://github.com/luvidal/rnfieldset/.github/iphone.png)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -33,8 +36,3 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-
-
-
-
-![Fieldset Example](https://myoctocat.com/assets/images/base-octocat.svg)
