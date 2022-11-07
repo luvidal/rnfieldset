@@ -16,7 +16,6 @@ npm install rnfieldset
 ```typescript
 
 import Fieldset from 'rnfieldset'
-
 // palette for light and dark modes (100% optional)
 const colors = { darkfore:'#666', darkback:'#111', lightfore:'#BBB', lightback:'#FFF' }
 
@@ -27,7 +26,7 @@ const colors = { darkfore:'#666', darkback:'#111', lightfore:'#BBB', lightback:'
 
 ```
 
-!(https://github.com/luvidal/rnfieldset/assets/iphone.png)
+![](./iphone.png)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
