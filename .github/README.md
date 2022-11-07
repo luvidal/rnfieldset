@@ -20,14 +20,14 @@ import Fieldset from 'rnfieldset'
 // palette for light and dark modes (100% optional)
 const colors = { darkfore:'#666', darkback:'#111', lightfore:'#BBB', lightback:'#FFF' }
 
-<Fieldset title='Fieldset' colors={ colors }>
+<Fieldset title='Fieldset Example' colors={ colors }>
   <Text style={{ color:'cyan' }}>Hello</Text>
   <Text style={{ color:'magenta' }}>World!</Text>
 </Fieldset>
 
 ```
 
-![Fieldset Example](https://github.com/luvidal/rnfieldset/.github/iphone.png)
+!(./iphone.png)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
