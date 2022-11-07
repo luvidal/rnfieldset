@@ -27,6 +27,7 @@ const colors = { darkfore:'#666', darkback:'#111', lightfore:'#BBB', lightback:'
 
 ```
 
+Outputs
 
 ![](./iphone.png)
 
