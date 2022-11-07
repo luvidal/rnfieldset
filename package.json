@@ -1,20 +1,24 @@
 {
   "name": "rnfieldset",
-  "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "version": "1.0.1",
+  "main": "index",
+  "typings": "index",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luvidal/rnfieldset.git"
+  },
+  "author": "Luis Vidal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luvidal/rnfieldset/issues"
+  },
+  "homepage": "https://github.com/luvidal/rnfieldset#readme",
   "dependencies": {
-    "expo": "~46.0.16",
-    "expo-status-bar": "~1.4.0",
     "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "react-native": "0.69.6",
-    "react-native-web": "~0.18.7"
+    "react-native": "0.69.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
